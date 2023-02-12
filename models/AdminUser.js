@@ -26,7 +26,7 @@ const modelSchema= new mongoose.Schema({
     Role:{
         type:String,
         required:true,
-        default:constants.UserType.Admin,
+        default:constants.UserType.User,
     },
     Department:{
    type:String
